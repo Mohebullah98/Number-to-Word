@@ -39,25 +39,25 @@ class Main {
           case 1: Teen =true;
           word="";
           break;
-          case 2: word="Twenty";
+          case 2: word="Twenty ";
           break;
-          case 3: word="Thirty";
+          case 3: word="Thirty ";
           break;
-          case 4: word= "Forty";
+          case 4: word= "Forty ";
           break;
-          case 5: word="Fifty";
+          case 5: word="Fifty ";
           break;
-          case 6: word="Sixty";
+          case 6: word="Sixty ";
           break;
-          case 7:word ="Seventy";
+          case 7:word ="Seventy ";
           break;
-          case 8:word="Eighty";
+          case 8:word="Eighty ";
           break;
-          case 9:word="Ninety";
+          case 9:word="Ninety ";
           break;
         }
         
-        System.out.print(word+" ");
+        System.out.print(word+"");
       }
       if(n.length()-i==4&&Teen==false){
         switch(digit){
@@ -97,49 +97,49 @@ class Main {
         switch(digit){
           case 0:word="";
           break;
-          case 1: word="one hundred";
+          case 1: word="one hundred ";
           break;
-          case 2: word="Two hundred";
+          case 2: word="Two hundred ";
           break;
-          case 3: word ="Three hundred";
+          case 3: word ="Three hundred ";
           break;
-          case 4: word ="Four Hundred";
+          case 4: word ="Four Hundred ";
           break;
-          case 5:word ="Five Hundred";
+          case 5:word ="Five Hundred ";
           break;
-          case 6: word ="Six Hundred";
+          case 6: word ="Six Hundred ";
           break;
-          case 7: word ="Seven Hundred";
+          case 7: word ="Seven Hundred ";
           break;
-          case 8: word="Eight Hundred";
+          case 8: word="Eight Hundred ";
           break;
-          case 9: word ="Nine Hundred";
+          case 9: word ="Nine Hundred ";
           break;
         }
-        System.out.print(word+ " ");
+        System.out.print(word+ "");
       }
       if(n.length()-i==2){
         switch(digit){
           case 0:word= "";
           break;
-          case 1: Teen =true;
+          case 1: Teen =true;//different sounds for words if 1 is in the tens place (Teens)
           word="";
           break;
-          case 2: word="Twenty";
+          case 2: word="Twenty ";
           break;
-          case 3: word="Thirty";
+          case 3: word="Thirty ";
           break;
-          case 4: word= "Forty";
+          case 4: word= "Forty ";
           break;
-          case 5: word="Fifty";
+          case 5: word="Fifty ";
           break;
-          case 6: word="Sixty";
+          case 6: word="Sixty ";
           break;
-          case 7:word ="Seventy";
+          case 7:word ="Seventy ";
           break;
-          case 8:word="Eighty";
+          case 8:word="Eighty ";
           break;
-          case 9:word="Ninety";
+          case 9:word="Ninety ";
           break;
         }
         System.out.print(word+"");
