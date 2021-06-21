@@ -5,7 +5,7 @@ class Main {
     char digitChar;
     String word ="";
     boolean Teen= false;
-    for(int i=0;i<n.length();i++){
+    for(int i=0;i<n.length();i++){//split number into digits to convert each digit to word
       digitChar=n.charAt(i);
       digit= Character.getNumericValue(digitChar);
       if(n.length()-i==6){
